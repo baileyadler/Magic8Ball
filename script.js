@@ -46,6 +46,6 @@ function shakeMagic8Ball() {
   console.log(eightBall);
   document.getElementById(
     "response-text"
-  ).innerText = `${userName} has asked the Magic 8 Ball ${userQuestion}. The wise and wondrous has replied ${eightBall}`;
+  ).innerText = `${userName} has asked the Magic 8 Ball${userQuestion}. The wise and wondrous has replied ${eightBall}`;
   document.getElementById("response-image").src = responseImg;
 }

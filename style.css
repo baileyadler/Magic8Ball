@@ -3,7 +3,11 @@ body{
 }
 h1{
     color:white;
+    margin:40px;
 }
 #response-text{
 color:white;
+}
+b{
+  color:red;
 }
