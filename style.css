@@ -35,4 +35,7 @@ p{
 }
 footer{
   margin-top:120px;
+  font-family: "gimlet-display", serif;
+  font-weight: 400;
+  font-style: normal;
 }
