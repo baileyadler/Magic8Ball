@@ -1,40 +1,39 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
-h1{
-    color:white;
-    margin:40px;
-    font-family: "gimlet-display", serif;
-font-weight: 400;
-font-style: normal;
-font-size: 30px;
-}
-#response-text{
-color:white;
-font-family: "gimlet-display", serif;
-font-weight: 400;
-font-style: normal;
-font-size: 20px;
-}
-.gimlet-display{
+h1 {
+  color: white;
+  margin: 40px;
   font-family: "gimlet-display", serif;
-font-weight: 400;
-font-style: normal;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
 }
-#response-image{
-  height:300px;
-  margin:30px;
+#response-text {
+  color: white;
+  font-family: "gimlet-display", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }
-
-.nav-item{
-  padding:20px;
-  color:white;
+.gimlet-display {
+  font-family: "gimlet-display", serif;
+  font-weight: 400;
+  font-style: normal;
 }
-p{
-  color:white;
+#response-image {
+  height: 300px;
+  margin: 30px;
 }
-footer{
-  margin-top:120px;
+.nav-item {
+  padding: 20px;
+  color: white;
+}
+p {
+  color: white;
+}
+footer {
+  margin-top: 120px;
   font-family: "gimlet-display", serif;
   font-weight: 400;
   font-style: normal;
