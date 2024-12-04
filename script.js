@@ -28,11 +28,11 @@ function shakeMagic8Ball() {
       break;
     case 4:
       eightBall = "Do not count on it";
-      responseImg = "donotcountonit.jpg";
+      responseImg = "dontcountonit.jpg";
       break;
     case 5:
       eightBall = "My sources say no";
-      responseImg = "sourxessayno.png";
+      responseImg = "sourcessayno.png";
       break;
     case 6:
       eightBall = "Outlook not so good";
