@@ -24,6 +24,7 @@ h1 {
 #response-image {
   height: 300px;
   margin: 30px;
+  border-radius:36px;
 }
 .nav-item {
   padding: 20px;
@@ -39,4 +40,6 @@ footer {
 }
 button{
   box-shadow: 0px 15px 40px red;
+
 }
+

@@ -1,4 +1,5 @@
-let userName = prompt("what is your name");
+let userGreet = alert("Please follow the directions");
+let userName = prompt("Write your name");
 userName
   ? (document.getElementById("greeting").innerText = `Hello, ${userName}!`)
   : (document.getElementById("greeting").innerText = `Hello!`);
@@ -8,7 +9,7 @@ function shakeMagic8Ball() {
   let eightBall = "";
   let responseImg;
 
-  let userQuestion = prompt("what is your question for the mighty 8 Ball?");
+  let userQuestion = prompt("Ask the Mighty 8 Ball a question?");
   switch (randomNumber) {
     case 0:
       eightBall = "It is certain";
@@ -46,6 +47,6 @@ function shakeMagic8Ball() {
   console.log(eightBall);
   document.getElementById(
     "response-text"
-  ).innerText = `${userName} has asked the Magic 8 Ball${userQuestion}. The wise and wondrous has replied ${eightBall}.`;
+  ).innerText = `${userName} has asked the Magic 8 Ball${userQuestion}. The wise and wondrous 8 Ball has used its Magic and has replied ${eightBall}.`;
   document.getElementById("response-image").src = responseImg;
 }
