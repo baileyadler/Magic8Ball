@@ -43,9 +43,9 @@ button{
 
 }
 #greeting{
-  opacity:0.5;
-  color:red;
-  transition:opacity 3s ease-in-out;
+  opacity:0.6;
+  color:rgb(252, 25, 25);
+  transition:opacity 2s ease-in-out;
   font-size:40px;
 }
 #greeting:hover{

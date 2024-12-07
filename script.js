@@ -12,35 +12,35 @@ function shakeMagic8Ball() {
   let userQuestion = prompt("Ask the Mighty 8 Ball a question?");
   switch (randomNumber) {
     case 0:
-      eightBall = "It is certain";
+      eightBall = "Yes, It is certain";
       responseImg = "itiscertain.jpg";
       break;
     case 1:
-      eightBall = "It is decidedly so";
+      eightBall = "Yes, It is decidedly so";
       responseImg = "itissaidso.webp";
       break;
     case 2:
-      eightBall = "Reply hazy try again";
+      eightBall = "No, Reply hazy try again";
       responseImg = "replyhazy.png";
       break;
     case 3:
-      eightBall = "Cannot predict now";
+      eightBall = "No, Cannot predict now";
       responseImg = "dontpredict.webp";
       break;
     case 4:
-      eightBall = "Do not count on it";
+      eightBall = "No, Do not count on it";
       responseImg = "dontcountonit.jpg";
       break;
     case 5:
-      eightBall = "My sources say no";
+      eightBall = "No, My sources say no";
       responseImg = "sourcessayno.png";
       break;
     case 6:
-      eightBall = "Outlook not so good";
+      eightBall = "No, Outlook not so good";
       responseImg = "outlooknotsogood.png";
       break;
     case 7:
-      eightBall = "Signs point to yes";
+      eightBall = "Yes, Signs point to yes";
       responseImg = "signpointstoyes.jpg";
       break;
   }
